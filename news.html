@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 600px;
+      /* height: 1000px; */
+      border: 2px solid gray;
+      margin: 50px auto;
+    }
+
+    img {
+      width: 400px;
+      height: 300px;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    .title {
+      width: 600px;
+      height: 60px;
+      text-align: center;
+      border-top: 2px solid blue;
+      border-bottom: 1px solid gray;
+    }
+
+    .img {
+      margin: 20px 80px;
+    }
+
+    .news {
+      width: 580px;
+      /* height: 100px; */
+      border: 1px solid gray;
+      margin: 10px auto;
+    }
+
+    .inline-blo {
+      display: inline-block;
+    }
+
+    .fc-blue {
+      color: blue;
+    }
+
+    span.fc-red {
+      color: red;
+    }
+
+    .fz12 {
+      font-size: 12px;
+      text-align: center;
+      color: gray;
+      line-height: 20px;
+    }
+
+    .fz14 {
+      font-size: 14px;
+      text-indent: 2em;
+      margin: 15px auto;
+      line-height: 24px;
+    }
+
+    .tx-al {
+      text-align: right;
+    }
+
+    .download {
+      width: 400px;
+      /* height: 30px; */
+      border: 1px solid blue;
+      margin: 5px auto;
+      padding: 8px 10px;
+      background-color: skyblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="title">
+      <h3>最美逆行 除夕夜青岛这名医生奔赴疫情一线</h3>
+      <p class="fz12 inline-blo">2021年01月25日 <span class="fc-red fz12">新浪新闻综合</span> 微博 共有<span class="fc-red fz12">7370</span>人参与 收藏本文</p>
+    </div>
+
+    <div class="img">
+      <img src="../homework8/img8/weibo.jpg" width="677" height="504" alt="weibo">
+      <p class="fz12">最美逆行!除夕夜,青岛这名医生奔赴疫情一线,内地致敬!</p>
+    </div>
+
+    <div>
+      <p class="fz14">“你这傻孩子，医院那么多医生咋就非你去不可？好好在家过个年不行么！”
+          面对父亲的“质问”，秦文只是笑笑没说话。
+          作为一名青大附院院感科医生，她知道这场源发于武汉的疫情意味着什么，
+          如果连医生都选择逃避，那只会让更多人的健康失去保护；但作为女儿，
+          她也明白父亲的话并非真埋怨她傻，毕竟哪个做父母的愿意看见自己的孩子冒险？</p>
+    </div>
+
+    <div class="news">
+      <p class="fc-blue inline-blo">疫情新闻资讯:</p>
+      <span class="fz14">#疫情#大年三十接到通知:武汉需要你!
+        "其实疫情爆发的时候我就有心理准备,但没想到会这么突然."</span>
+      <!-- <p class="inline-blo">#疫情#大年三十接到通知:武汉需要你</p>
+      <p class="inline-blo tx-al">"其实疫情爆发的时候我就有心理准备,但没想到会这么突然" </p> -->
+      <p class="fz12 tx-al">2020-01-30 12:54 来自UC浏览器 转发(349)|收藏|评论(50)|</p>
+    </div>
+
+    <div>
+      <p class="fz14">作为青大附院院感科的医生，秦文一直密切关注着这场疫情，
+        而作为一名医疗工作者，她也明白自己的使命，“一旦情况需要，我可以马上去武汉！”。
+        不同于其他科室，院感科的主要职责是保证医院及医护人员免受病毒感染，
+        尤其是面对新型病毒，由于对病毒习性、耐药性等指标的不确定，预防工作就会显得极其重要。</p>
+      <p class="fz14">秦文说，这个问题家人们问过她很多遍，作为感染防护的专业人员，
+        秦文曾经在国家卫生健康委医政医管局借调，主要就是负责感染防护类的工作。
+        此次武汉爆发疫情，除了医疗类的各种物资，最缺的就是从事感染防护医护人员，
+        看似是一道选择题，但是对于秦文来说，这道必答题的答案只有一个。</p>
+      <p class="inline-blo">文章关键词: </p>
+      <p class="fc-blue inline-blo">疫情 除夕夜 致敬 青岛</p>
+    </div>
+
+    <div class="download">
+      <p class="fc-blue"><a href="#" target="_blank">点击下载[新浪微博客户端],最新新闻资讯尽在掌握</a></p>
+    </div>
+
+  </div>
+</body>
+
+</html>
+
+<!-- 
+  右键 => 检查 => ctrl+shift+p => capture full =>保存整个网页
+ -->
+
+ <!-- 
+   评价:
+    1. div健壮不足恐惧症: 临床表现为div过多 img 和 title 和 download 这三个类可以只用一个div,当时会破坏结构的合理性
+    2. body大盒子没有padding
+    3. 没有使用子代选择器
+    4. 标题下的分割线不是完全闭合的 分割线 比 盒子 小比 内容文本 大 
+        它可以看作有一个盒子在这里
+    5. 缺少超链接 新浪新闻综合应该设置a标签
+    6. 文本之间的内外边距没有经过测量和没有使用内外边距来控制准确距离
+    7. 插入新闻部分内边距没有设置
+    8. 超链接处没有使用伪类选择器
+    9. 建议使用样式细分化来控制代码整体布局
+    10. 建议使用内外边距来控制盒子和盒子之间的间隔
+  -->
+
+  <!-- 
+  1. 提取大多数内容文本的字体大小 行高 字体类型 fz22 fz14 fz12 lh24
+  2. 获取设计图上的 色系 主要 文本 装饰 #333 #666 #b60c0c #0454a7 #dee2f3
+ -->
